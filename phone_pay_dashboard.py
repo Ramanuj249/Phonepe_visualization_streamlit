@@ -196,17 +196,16 @@ with tab1:
     with colT2:
         st.info(
         """
-        Details of BarGraph:
-        - This entire data belongs to state selected by you
-        - X Axis is basically all years with all quarters 
-        - Y Axis represents total transactions in selected mode        
+        BarGraphics:
+        - The bar graph displays data for a specific state selected by the user. 
+        - The X axis shows all years and quarters, while the Y axis represents the total transactions for the selected mode within the state.        
         """
         )
         st.info(
         """
-        Important Observations:
-        - User can observe the pattern of payment modes in a State 
-        - We get basic idea about which mode of payments are either increasing or decreasing in a state
+        Valuable perspectives:
+        - The bar graph enables users to visualize the pattern of payment modes within a selected state.
+        - By analyzing the bars on the graph, users can gain a basic understanding of which payment modes are either increasing or decreasing in popularity within the state.
         """
         )
 #=============================================T FIGURE2 DISTRICTS ANALYSIS=============================================
@@ -244,17 +243,16 @@ with tab2:
     with colT2:
         st.info(
         """
-        Details of BarGraph:
-        - This entire data belongs to state selected by you
-        - X Axis represents the districts of selected state
-        - Y Axis represents total transactions        
+        BarGraphics:
+        - The bar graph displays data for a state that the user selects. 
+        - The X axis represents the districts within the selected state, while the Y axis represents the total transactions for each district.        
         """
         )
         st.info(
         """
-        Important Observations:
-        - User can observe how transactions are happening in districts of a selected state 
-        - We can observe the leading distric in a state 
+        Valuable perspectives:
+        - The bar graph allows users to observe the distribution of transactions across the districts of a selected state.
+        - By analyzing the bars on the graph, users can identify the leading district in terms of transaction volume within the state.
         """
         )
 #=============================================T FIGURE3 YEAR ANALYSIS===================================================
@@ -290,18 +288,17 @@ with tab3:
     with colT2:
         st.info(
         """
-        Details of BarGraph:
-        - This entire data belongs to selected Year
-        - X Axis is all the states in increasing order of Total transactions
-        - Y Axis represents total transactions in selected mode        
+        BarGraphics:
+        - The bar graph displays data for a selected year. 
+        - The X axis represents all states arranged in increasing order of total transactions, while the Y axis represents the total transactions for the selected mode.
         """
         )
         st.info(
         """
-        Important Observations:
-        - We can observe the leading state with highest transactions in particular mode
-        - We get basic idea about regional performance of Phonepe
-        - Depending on the regional performance Phonepe can provide offers to particular place
+        Valuable perspectives:
+        -The bar graph enables users to identify the leading state with the highest transactions for a particular payment mode.
+        - By analyzing the bars on the graph, users can gain a basic understanding of the regional performance of PhonePe.
+        - Based on the regional performance, PhonePe can provide targeted offers to specific locations.
         """
         )
 #=============================================T FIGURE4 OVERALL ANALYSIS=============================================
@@ -322,7 +319,7 @@ with tab4:
         st.markdown(years_Table.style.hide(axis="index").to_html(), unsafe_allow_html=True)
         st.info(
         """
-        Important Observations:
+        Valuable perspectives:
         - Its very clearly understood that online transactions drasticall increased
         - Initially in 2018,2019 the transactions are less but with time the online payments are increased at a high scale via PhonePe.
         - We can clearly see that more than 50% of total Phonepe transactions in india happened are from the year 2022
@@ -372,18 +369,18 @@ with tab1:
     with colT2:
         st.info(
         """
-        Details of BarGraph:
-        - user need to select a state 
-        - The X Axis shows both Registered users and App openings 
-        - The Y Axis shows the Percentage of Registered users and App openings
+        BarGraphics:
+        - To view the data, the user must select a state.
+        - The X axis of the bar graph displays the number of registered users and app openings.
+        - The Y axis of the bar graph displays the percentage of registered users and app openings.
         """
         )
         st.info(
         """
-        Important Observations:
-        - User can observe how the App Openings are growing and how Registered users are growing in a state
-        - We can clearly obseve these two parameters with time
-        - one can observe how user base is growing
+        Valuable perspectives:
+        - The bar graph allows users to observe the growth of app openings and registered users in a state.
+        - By analyzing the graph over time, users can clearly observe the growth of these two parameters.
+        - The user base growth can be tracked by observing the number of registered users over time.
         """
         )
 # ==================================================U DISTRICT ANALYSIS ====================================================
@@ -426,17 +423,17 @@ with tab2:
         if l:
             st.info(
         """
-        Details of BarGraph:
-        - This entire data belongs to state selected by you
-        - X Axis represents the districts of selected state
-        - Y Axis represents App Openings       
+        BarGraphics:
+        - The data displayed in the graph pertains to the state that the user has selected.
+        - The X axis of the graph represents the districts within the selected state.
+        - The Y axis of the graph represents the number of app openings.       
         """
             )
             st.info(
         """
-        Important Observations:
-        - User can observe how App Openings are happening in districts of a selected state 
-        - We can observe the leading distric in a state 
+        Valuable perspectives:
+        - Users can view the distribution of app openings across districts in the selected state.
+        - The graph allows users to identify the district with the highest number of app openings in the state. 
         """
             )
 # ==================================================U YEAR ANALYSIS ========================================================
@@ -479,18 +476,17 @@ with tab3:
     with colT2:
         st.info(
         """
-        Details of Donut Chart:        
-        - Initially we select data by means of State and Year
-        - Percentage of registered users is represented with dounut chat through Device Brand
+        Insights from Donut Chart:        
+        - Data selected by State and Year
+        - Device Brand's share of registered users represented by Donut Chart
         """
         )
         st.info(
         """
-        Important Observations:
-        - User can observe the top leading brands in a particular state
-        - Brands with less users
-        - Brands with high users
-        - Can make app download advices to growing brands
+        Valuable perspectives:
+        - User can observe the top leading brands in a particular state.
+        - Brands with high and low user percentages can be easily compared.
+        - The chart can help in advising app download strategies to growing brands
         """
         )
 

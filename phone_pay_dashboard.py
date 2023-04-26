@@ -129,19 +129,19 @@ with colT1:
 with colT2:
     st.info(
     """
-    Details of Map:
-    - The darkness of the state color represents the total transactions
-    - The Size of the Circles represents the total transactions dictrict wise
-    - The bigger the Circle the higher the transactions
-    - Hover data will show the details like Total transactions, Total amount
+    Map insights:
+    - The state colors on the map vary in darkness to reflect the total number of transactions, while the size of circles on the map correspond to the total transactions in each district.
+    - The map shows transaction data, with state colors indicating total transaction volumes and the size of the circles indicating district-level transactions.
+    - The map uses darker state colors to represent higher total transactions and larger circles to represent higher transaction volumes at the district level.
+    - Total transactions are represented by the darkness of state colors and the size of circles on the map, which correspond to district-level transactions.
     """
     )
     st.info(
     """
-    Important Observations:
-    - User can observe Transactions of PhonePe in both statewide and Districtwide.
-    - We can clearly see the states with highest transactions in the given year and quarter
-    - We get basic idea about transactions district wide
+    Valuable perspectives:
+    - The map allows users to view PhonePe transactions at both the statewide and district-wide levels.
+    - The map clearly highlights the states with the highest transactions during the given year and quarter.
+    - By analyzing the size and darkness of the circles on the map, users can gain a basic understanding of transaction volumes at the district level.
     """
     )
 # -----------------------------------------------FIGURE2 HIDDEN BARGRAPH------------------------------------------------------------------------

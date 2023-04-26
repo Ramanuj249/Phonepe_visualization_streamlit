@@ -573,6 +573,4 @@ with col3:
     st.write(x[['Total_Transactions_count']][1:4])
 with col4:
     st.markdown("#### :orange[Total Amount :dollar:]")
-    st.write(y['Total_Amount'][1:4])      
-        
-
+    st.write(y['Total_Amount'][1:6])
